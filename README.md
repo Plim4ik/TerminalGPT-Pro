@@ -56,7 +56,7 @@ You can now start a new conversation with `terminalgpt new` or load a previous c
 ### TL;DR
 
 ```sh
-Usage: terminalgpt-pro [OPTIONS] COMMAND [ARGS]...
+Usage: terminalgpt [OPTIONS] COMMAND [ARGS]...
 
   *~ TerminalGPT-Pro - Your Personal Terminal Assistant ~*
 
