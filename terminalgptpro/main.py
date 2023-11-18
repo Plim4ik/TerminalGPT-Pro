@@ -17,6 +17,11 @@ from terminalgptpro.conversations import ConversationManager
 from terminalgptpro.encryption import EncryptionManager
 from terminalgptpro.printer import Printer, PrinterFactory, PrintUtils
 
+from terminal.new import start_new_conversation
+from terminal.install import install_api_key
+from terminal.load import load_conversation
+from terminal.delete import delete_conversation
+
 @click.group()
 @click.version_option(prog_name="TerminalGPT-Pro", message="%(prog)s %(version)s")
 @click.option(

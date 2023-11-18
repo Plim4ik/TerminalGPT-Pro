@@ -36,7 +36,7 @@ class PlainPrinter(Printer):
 
     def print_assistant_message(self, message, color=Fore.YELLOW):
         """Prints the assistant message."""
-        print(Style.BRIGHT + "Assistant:" + Style.RESET_ALL)
+        print(Style.BRIGHT + "TerminalGPT-Pro:" + Style.RESET_ALL)
         self.printt(color + message + Style.RESET_ALL)
 
 
@@ -60,7 +60,7 @@ class MarkdownPrinter(Printer):
 
     def print_assistant_message(self, message, color=Fore.YELLOW):
         """Prints the assistant message."""
-        print(Style.BRIGHT + "Assistant:" + Style.RESET_ALL)
+        print(Style.BRIGHT + "TerminalGPT-Pro:" + Style.RESET_ALL)
         self.printt(color + message + Style.RESET_ALL)
 
     def _split_highlighted_string(self, string: str) -> List[str]:
@@ -126,12 +126,15 @@ Let's install the OpenAI API key, so you can use TerminalGPT-Pro.
         Style.BRIGHT
         + Fore.GREEN
         + """
- _______                  _             _  _____ _____ _______ 
-|__   __|                (_)           | |/ ____|  __ \__   __|
-   | | ___ _ __ _ __ ___  _ _ __   __ _| | |  __| |__) | | |   
-   | |/ _ \ '__| '_ ` _ \| | '_ \ / _` | | | |_ |  ___/  | |   
-   | |  __/ |  | | | | | | | | | | (_| | | |__| | |      | |   
-   |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|\_____|_|      |_|   
+
+
+
+╔════╗─────────────╔╗╔═══╦═══╦════╗─╔═══╗
+║╔╗╔╗║─────────────║║║╔═╗║╔═╗║╔╗╔╗║─║╔═╗║
+╚╝║║╠╩═╦═╦╗╔╦╦═╗╔══╣║║║─╚╣╚═╝╠╝║║╚╝─║╚═╝╠═╦══╗
+──║║║║═╣╔╣╚╝╠╣╔╗╣╔╗║║║║╔═╣╔══╝─║║╔══╣╔══╣╔╣╔╗║
+──║║║║═╣║║║║║║║║║╔╗║╚╣╚╩═║║────║║╚══╣║──║║║╚╝║
+──╚╝╚══╩╝╚╩╩╩╩╝╚╩╝╚╩═╩═══╩╝────╚╝───╚╝──╚╝╚══╝
 """
         + Style.RESET_ALL
     )
@@ -154,7 +157,7 @@ Let's get our programming on!"""
         """
 Just a reminder that TerminalGPT-Pro is a free and open source project.
 So if you ever feel like contributing or checking out the inner workings of the program,
-feel free to head on over to https://github.com/adamyodinsky/TerminalGPT
+feel free to head on over to https://github.com/Plim4ik/TerminalGPT-Pro
 Thanks for being a part of our community!
 
 """
