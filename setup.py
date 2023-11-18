@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name='terminalgpt-pro',
-    version='0.3.1',
+    version='0.3.12',
     description='AI chat assistant in your terminal powered by OpenAI ChatGPT models.',
     long_description=long_description,
     long_description_content_type='text/markdown',

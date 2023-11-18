@@ -2,13 +2,17 @@ import os
 import time
 import getpass
 import json
-from terminalgptpro.encryption import EncryptionManager
-from terminalgptpro.printer import PrinterFactory, PrintUtils
-from terminalgptpro import config
+from ..config import *
+from ..chat import *
+from ..conversations import *
+from ..encryption import *
+from ..printer import *
+from ..main import *
+
 
 def install_api_key():
     """Install the terminalgpt openai api key and create app directories."""
-    
+
     printer: Printer = PrinterFactory.get_printer(style="plain")
     enc_manager: EncryptionManager = EncryptionManager()
 

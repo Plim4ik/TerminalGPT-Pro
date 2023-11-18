@@ -1,5 +1,10 @@
-from terminalgptpro.printer import PrinterFactory, PrintUtils
-from terminalgptpro.conversations import ConversationManager
+from ..config import *
+from ..chat import *
+from ..conversations import *
+from ..encryption import *
+from ..printer import *
+from ..main import *
+
 
 def delete_conversation(ctx):
     """Delete previous conversations."""

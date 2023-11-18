@@ -1,7 +1,10 @@
 
-from terminalgptpro.encryption import EncryptionManager
-from terminalgptpro.printer import PrinterFactory, PrintUtils
-from terminalgptpro import config
+from ..config import *
+from ..chat import *
+from ..conversations import *
+from ..encryption import *
+from ..printer import *
+from ..main import *
 
 def load_conversation(ctx):
     """Load a previous conversation."""
