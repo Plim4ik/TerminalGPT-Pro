@@ -126,7 +126,7 @@ class ChatManager:
             try:
                 with yaspin(
                     Spinners.earth,
-                    text=Style.BRIGHT + "Assistant:" + Style.RESET_ALL,
+                    text=Style.BRIGHT + "TerminalGPT-Pro:" + Style.RESET_ALL,
                     color="blue",
                     side="right",
                 ):
